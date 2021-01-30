@@ -113,9 +113,9 @@ header .content .page-description {
         font-size: 1rem;
     }
     .color-box {
-        /* border: 1px solid limegreen; */
-        width: 50%;
-        display: flex;
+        border: 1px solid limegreen;
+        /* width: 50%;
+        /* display: flex; */
         flex-wrap: row wrap;
         font-size: .66rem;
     }
