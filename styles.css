@@ -52,7 +52,7 @@ header .content .page-description {
     font-weight: 400;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 900px) {
     header .content .page-description {
         display: none;
     }
@@ -111,7 +111,7 @@ header .content .page-description {
     text-align: left;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 900px) {
     main .content {
         width: 100%;
         margin: 0 auto;
