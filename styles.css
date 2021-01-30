@@ -1,0 +1,136 @@
+/* Universal Styles */
+
+body {
+    margin: 0%;
+    max-width: 100%;
+    color: #023047;
+}
+main .content {
+    font-family: Arimo, sans-serif;
+    position: relative;
+    top: 115px;
+    width: auto;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 0px;
+    border: 2px solid #023047;
+}
+.content .title {
+    width: 100%;
+    margin: 0px;
+    color: white;
+    text-align: center;
+    background-color: #023047;
+}
+
+/* Header */
+
+header {
+    max-width: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    margin: 0;
+    padding: 0;
+    font-family: Oswald, sans-serif;
+    background-color: #8EC8E6;
+    border-bottom: 1px solid  #023047;
+}
+header .content {
+    display: flex;
+    padding: 0px 10px;
+    font-size: 20px;
+    color:  #023047;
+}
+header .content .project-title {
+    justify-content: flex-start;
+    font-weight: 600;
+}
+header .content .page-description {
+    margin-left: auto;
+    font-weight: 400;
+}
+
+/* Colors */
+
+.colors-row-1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+    clear: right;
+}
+/* .colors-row-2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    clear: left;
+} */
+.color-box {
+    display: inline-flex;
+    height: 150px;
+    width: 30%;
+    border: 2px solid #023047;
+    margin: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.color-box-1 {
+    background-color: #8ECAE6;
+}
+.color-box-2 {
+    background-color: #219EBC;
+}
+.color-box-3 {
+    background-color: #023047;
+}
+.color-box-4 {
+    background-color: #FFB703;
+}
+.color-box-5 {
+    background-color: #FB8500;
+}
+.color-box .color-name{
+    color: white;
+    font-size: 1.75rem;
+}
+.color-box ul {
+    margin-top: 0px;
+    color: white;
+    list-style: square;
+    text-align: left;
+}
+
+@media only screen and (max-width: 900px) {
+    main .content {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .color-box .color-name {
+        font-size: 1rem;
+    }
+    .color-box {
+        /* border: 1px solid limegreen; */
+        width: 50%;
+        display: flex;
+        flex-wrap: row wrap;
+        font-size: .66rem;
+    }
+}
+
+/* Fonts */
+
+.font-box {
+    display: inline-flex;
+    /* height: 150px; */
+    width: 50%;
+    border: 2px solid black;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Type Styles */
