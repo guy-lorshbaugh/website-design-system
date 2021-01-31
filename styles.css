@@ -137,7 +137,7 @@ header .content .page-description {
     max-width: 100%;
 }
 .font-box {
-    display: flexbox;
+    display: block;
     flex-wrap: wrap;
     width: 40%;
     font-size: 1.25rem;
@@ -160,7 +160,7 @@ header .content .page-description {
 }
 .font-box .font {
     font-size: 1.5rem;
-    text-indent: 6.5rem;
+    /* text-indent: 6.5rem; */
     line-height: 1.15;
 }
 .font-reg {
@@ -189,9 +189,11 @@ header .content .page-description {
 @media only screen and (max-width: 1080px) {
     .font-box {
         font-size: 1rem;
-        border: none;
-        width: fit-content;
-        padding: 15px;
+        border-top: 2px solid #023047;
+        border-bottom: 2px solid #023047;
+        border-left: none;
+        border-right: none;
+        width: 70%;
     }
     .font-box .font {
         font-size: 1rem;
