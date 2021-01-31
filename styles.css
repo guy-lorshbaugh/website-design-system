@@ -111,7 +111,6 @@ header .page-description {
     }
 }
 
-
 @media only screen and (max-width: 760px) {
     header .content .page-description {
         display: none;
@@ -174,6 +173,7 @@ header .page-description {
         font-size: .9rem;
         padding: 3px;
         margin: 10px;
+        overflow: hidden;
     }
 }
 
