@@ -106,7 +106,7 @@ header .page-description {
     font-weight: 400;
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1080px) {
     #nav {
         display: none;
     }
