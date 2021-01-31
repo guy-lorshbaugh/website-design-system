@@ -21,11 +21,9 @@ body {
 }
 h1 {
     font-size: 30px;
-    /* font-weight: 700; */
 }
 h2 {
     font-size: 26px;
-    /* font-weight: 700; */
 }
 h3 {
     font-size: 22px;
@@ -127,11 +125,10 @@ header .page-description {
     max-width: 100%;
 }
 .color-box {
-    display: inline-flex;
+    display: block;
     flex-wrap: wrap;
     height: 150px;
     width: 30%;
-    /* min-width: 150px; */
     border: 2px solid #023047;
     border-radius: 20px;
     margin: 20px;
@@ -157,12 +154,34 @@ header .page-description {
 .color-box .color-name{
     color: white;
     font-size: 1.75rem;
+    line-height: 0.9rem;
 }
-.color-box ul {
+.color-box ul li {
+    list-style-type: none;
+    margin-left: 0px;
     margin-top: 0px;
+    padding-left: 10%;
     color: white;
-    list-style: square;
     text-align: left;
+}
+.hex {
+    font-size: .75rem;
+    line-height: 10px;
+}
+
+@media only screen and (max-width: 1080px) {
+    .color-box .color-name {
+        font-size: 1.25rem;
+    }
+    .color-box {
+        display: block;
+        height: 120px;
+        width: 300px;
+        font-size: .9rem;
+        padding: 3px;
+        margin: 10px;
+        overflow: hidden;
+    }
 }
 
 @media only screen and (max-width: 760px) {
@@ -177,6 +196,9 @@ header .page-description {
         padding: 3px;
         margin: 10px;
         overflow: hidden;
+    }
+    .color-box ul li {
+        padding-left: 0%;
     }
 }
 
