@@ -165,7 +165,7 @@ header .page-description {
     text-align: left;
 }
 .hex {
-    font-size: 11px;
+    font-size: .7rem;
     line-height: 10px;
 }
 
@@ -181,6 +181,10 @@ header .page-description {
         padding: 3px;
         margin: 10px;
         overflow: hidden;
+    }
+    .hex {
+        font-size: .7rem;
+        line-height: 10px;
     }
 }
 
