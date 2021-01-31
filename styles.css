@@ -19,6 +19,17 @@ body {
     font-size: 1rem;
     color: #023047;
 }
+h1 {
+    font-size: 30px;
+    /* font-weight: 700; */
+}
+h2 {
+    font-size: 26px;
+    /* font-weight: 700; */
+}
+h3 {
+    font-size: 22px;
+}
 main .content {
     font-family: Arimo, sans-serif;
     position: relative;
@@ -55,7 +66,7 @@ header {
     padding: 0;
     font-family: Oswald, sans-serif;
     background-color: #8EC8E6;
-    border-bottom: 1px solid  #023047;
+    border-bottom: 2px solid  #023047;
 }
 header ul li {
     display: inline-block;
@@ -116,7 +127,7 @@ header .page-description {
     height: 150px;
     width: 30%;
     min-width: 150px;
-    /* border: 2px solid #023047; */
+    border: 2px solid #023047;
     border-radius: 20px;
     margin: 20px;
     text-align: center;
@@ -133,10 +144,10 @@ header .page-description {
     background-color: #023047;
 }
 .color-box-4 {
-    background-color: #ffdc5b;
+    background-color: #525ca1;
 }
 .color-box-5 {
-    background-color: #525ca1;
+    background-color: #ffdc5b;
 }
 .color-box .color-name{
     color: white;
@@ -203,10 +214,10 @@ header .page-description {
     font-style: italic;
 }
 .font-box-1{
-    font-family: Oswald;
+    font-family: Arimo;
 }
 .font-box-2{
-    font-family: Arimo;
+    font-family: Oswald;
 }
 .font-box-3{
     font-family: Cabin;
@@ -237,3 +248,59 @@ header .page-description {
 
 /* Text Styles */
 
+.styles-row-1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+}
+.styles-row-1 h2 {
+    text-indent: 1rem;
+}
+.styles-row-1 h3 {
+    text-indent: 2rem;
+}
+.styles-row-1 p {
+    margin-left: 3rem;
+}
+.styles-box-left {
+    display: block;
+    flex-wrap: wrap;
+    width: 45%;
+    font-size: 1.25rem;
+    border: 2px solid #023047;
+    border-right: 1px solid #023047;
+    border-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin: 20px auto;
+    margin-right: 0;
+    padding: 20px 35px;
+}
+.styles-box-right {
+    display: block;
+    flex-wrap: wrap;
+    width: 45%;
+    font-size: 1.25rem;
+    border: 2px solid #023047;
+    border-left: 1px solid #023047;
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin: 20px auto;
+    margin-left: 0;
+    padding: 20px 35px;
+}
+.styles-box-1 {
+    font-family: Arimo;
+}
+.styles-box-2 {
+    font-family: Oswald;
+}
+.styles-box-3 {
+    font-family: Cabin;
+}
+.styles-box-4 {
+    font-family: "Josefin Slab";
+}
