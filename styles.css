@@ -1,8 +1,22 @@
 /* Universal Styles */
 
+* {
+    box-sizing: border-box;
+}
+a {
+    color: #525ca1;
+    text-decoration: none;
+}
+a:visited {
+    color: #525ca1;
+}
+a:hover {
+    color: #ffdc5b;
+}
 body {
     margin: 0%;
     max-width: 100%;
+    font-size: 1rem;
     color: #023047;
 }
 main .content {
@@ -15,14 +29,19 @@ main .content {
     margin-bottom: 35px;
     padding: 0px;
     border: 2px solid #023047;
+    border-radius: 20px;
 }
 .content .title {
     font-family: Oswald, sans-serif;
+    font-size: 2rem;
     width: 100%;
     margin: 0px;
     color: white;
     text-align: center;
     background-color: #023047;
+    border-radius: 15px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 
 /* Header */
@@ -38,22 +57,45 @@ header {
     background-color: #8EC8E6;
     border-bottom: 1px solid  #023047;
 }
+header ul li {
+    display: inline-block;
+    position: relative;
+    left: 100%;
+    text-align: center;
+    border: 2px solid #8EC8E6;
+    width: 100px;
+    height: auto;
+    padding: 5px;
+}
+header ul li:hover {
+    border: 2px solid #525ca1;
+    border-radius: 8px;
+}
 header .content {
     display: flex;
     padding: 0px 10px;
     font-size: 20px;
     color:  #023047;
 }
-header .content .project-title {
+header .project-title {
     justify-content: flex-start;
+    font-size: 1.5rem;
     font-weight: 600;
 }
-header .content .page-description {
+header .page-description {
     margin-left: auto;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
-@media only screen and (max-width: 1760px) {
+@media only screen and (max-width: 1300px) {
+    #nav {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 760px) {
     header .content .page-description {
         display: none;
     }
@@ -63,25 +105,19 @@ header .content .page-description {
 
 .colors-row-1 {
     display: flex;
-    flex-flow: wrap;
+    flex-flow: row wrap;
     justify-content: center;
     width: 100%;
     max-width: 100%;
-    clear: right;
 }
-/* .colors-row-2 {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    clear: left;
-} */
 .color-box {
     display: inline-flex;
     flex-wrap: wrap;
     height: 150px;
     width: 30%;
     min-width: 150px;
-    border: 2px solid #023047;
+    /* border: 2px solid #023047; */
+    border-radius: 20px;
     margin: 20px;
     text-align: center;
     align-items: center;
@@ -97,10 +133,10 @@ header .content .page-description {
     background-color: #023047;
 }
 .color-box-4 {
-    background-color: #FFB703;
+    background-color: #ffdc5b;
 }
 .color-box-5 {
-    background-color: #FB8500;
+    background-color: #525ca1;
 }
 .color-box .color-name{
     color: white;
@@ -114,16 +150,13 @@ header .content .page-description {
 }
 
 @media only screen and (max-width: 760px) {
-    main .content {
-        width: 100%;
-        margin: 0 auto;
-    }
     .color-box .color-name {
-        font-size: .9rem;
+        font-size: 1.25rem;
     }
     .color-box {
-        /* border: 1px solid limegreen; */
-        font-size: .66rem;
+        font-size: .9rem;
+        padding: 3px;
+        margin: 10px;
     }
 }
 
@@ -131,7 +164,7 @@ header .content .page-description {
 
 .fonts-row-1 {
     display: flex;
-    flex-flow: wrap;
+    flex-flow: row wrap;
     justify-content: center;
     width: 100%;
     max-width: 100%;
@@ -142,30 +175,26 @@ header .content .page-description {
     width: 40%;
     font-size: 1.25rem;
     border: 2px solid #023047;
+    border-radius: 20px;
     margin: 20px auto;
     padding: 20px 50px;
 }
-/* .font-box ul {
-    list-style-type: "-  ";
-    line-height: 1.7;
-} */
 .font-box p {
     line-height: 10px;
 }
 .font-box .font-name {
     text-align: center;
+    text-decoration: underline;
     font-size: 1.75rem;
     font-weight: 600;
     line-height: 1.6;
 }
 .font-box .font {
     font-size: 1.5rem;
-    /* text-indent: 6.5rem; */
     line-height: 1.15;
 }
 .font-reg {
     font-weight: 400;
-    width: max-content;
 }
 .font-bold {
     font-weight: 700;
@@ -189,16 +218,22 @@ header .content .page-description {
 @media only screen and (max-width: 1080px) {
     .font-box {
         font-size: 1rem;
-        border-top: 2px solid #023047;
+        border-top: none;
         border-bottom: 2px solid #023047;
         border-left: none;
         border-right: none;
+        border-radius: 0px;
         width: 70%;
+        margin: 0;
     }
     .font-box .font {
         font-size: 1rem;
         text-indent: 0rem;
     }
+    .last-box {
+        border-bottom: none;
+    }    
 }
 
-/* Type Styles */
+/* Text Styles */
+
