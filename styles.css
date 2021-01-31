@@ -265,7 +265,7 @@ header .page-description {
     font-family: "Josefin Slab";
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 760px) {
     .font-box {
         font-size: 1rem;
         border-top: none;
@@ -273,8 +273,9 @@ header .page-description {
         border-left: none;
         border-right: none;
         border-radius: 0px;
-        width: 70%;
+        width: 100%;
         margin: 0;
+        text-align: center;
     }
     .font-box .font {
         font-size: 1rem;
@@ -346,14 +347,22 @@ header .page-description {
 
 @media only screen and (max-width: 760px) {
     .styles-box-left {
-        width: 48%;
+        width: 50%;
         font-size: 1rem;
-        padding: 6px auto;
+        padding: 10px;
+        border-left: 0px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        text-align: -webkit-center;
     }
     .styles-box-right {
-        width: 48%;
+        width: 50%;
         font-size: 1rem;
-        padding: 6px auto;
+        padding: 10px;
+        border-right: 0px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        text-align: -webkit-center;
     }
     .styles-row-1 h2 {
         text-indent: 0.3rem;
