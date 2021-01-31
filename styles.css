@@ -311,6 +311,27 @@ header .page-description {
     font-family: "Josefin Slab";
 }
 
+@media only screen and (max-width: 760px) {
+    .styles-box-left {
+        width: 50%;
+        font-size: 1rem;
+    }
+    .styles-box-right {
+        font-size: 1rem;
+    }
+    .styles-row-1 h2 {
+        text-indent: 0.9rem;
+    }
+    .styles-row-1 h3 {
+        padding: 3px;
+        text-indent: 0.6rem;
+    }
+    .styles-row-1 p {
+        padding: 3px;
+        margin-left: 0.3rem;
+    }
+}
+
 /* Footer */
 
 footer {
