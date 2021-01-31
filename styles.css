@@ -351,18 +351,22 @@ header .page-description {
         font-size: 1rem;
         padding: 10px;
         border-left: 0px;
+        border-top: 0px;
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
         text-align: -webkit-center;
+        margin: 0px;
     }
     .styles-box-right {
         width: 50%;
         font-size: 1rem;
         padding: 10px;
+        border-top: 0px;
         border-right: 0px;
         border-top-right-radius: 0;
         border-bottom-right-radius: 0;
         text-align: -webkit-center;
+        margin: 0px;
     }
     .styles-row-1 h2 {
         text-indent: 0.3rem;
@@ -374,6 +378,9 @@ header .page-description {
     .styles-row-1 p {
         padding: 3px;
         margin-left: 0.9rem;
+    }
+    .last-box {
+        border-bottom: 0px;
     }
 }
 
