@@ -53,7 +53,7 @@ header .content .page-description {
     font-weight: 400;
 }
 
-@media only screen and (max-width: 1081px) {
+@media only screen and (max-width: 1760px) {
     header .content .page-description {
         display: none;
     }
@@ -113,7 +113,7 @@ header .content .page-description {
     text-align: left;
 }
 
-@media only screen and (max-width: 1081px) {
+@media only screen and (max-width: 760px) {
     main .content {
         width: 100%;
         margin: 0 auto;
@@ -185,8 +185,7 @@ header .content .page-description {
     font-family: "Josefin Slab";
 }
 
-
-@media only screen and (max-width: 1081px) {
+@media only screen and (max-width: 760px) {
     .font-box {
         font-size: 1rem;
         border: none;
