@@ -68,6 +68,12 @@ header {
     background-color: #8EC8E6;
     border-bottom: 2px solid  #023047;
 }
+#nav a {
+    color: #023047;
+}
+#nav a:hover {
+    color: #ffdc5b;
+}
 header ul li {
     display: inline-block;
     position: relative;
@@ -303,4 +309,32 @@ header .page-description {
 }
 .styles-box-4 {
     font-family: "Josefin Slab";
+}
+
+/* Footer */
+
+footer {
+    max-width: 100%;
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+    top: 115px;
+    z-index: 99;
+    margin: 0;
+    padding: 20px;
+    font-family: Oswald, sans-serif;
+    background-color: #8EC8E6;
+    border-top: 2px solid #023047;
+}
+.footer-content {
+    display: flex;
+    padding: 0px 10px;
+    /* font-size: 20px; */
+    color:  #023047;
+}
+.copyright {
+    justify-content: flex-start;
+}
+.location {
+    margin-left: auto;
 }
