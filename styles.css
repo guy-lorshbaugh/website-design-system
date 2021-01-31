@@ -12,7 +12,7 @@ main .content {
     width: auto;
     max-width: 90%;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
     padding: 0px;
     border: 2px solid #023047;
 }
@@ -159,7 +159,7 @@ header .content .page-description {
 }
 .font-box .font {
     font-size: 1.5rem;
-    text-indent: 1rem;
+    text-indent: 6.5rem;
     line-height: 1.15;
 }
 .font-reg {
