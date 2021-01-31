@@ -316,14 +316,17 @@ header .page-description {
 
 @media only screen and (max-width: 760px) {
     .styles-box-left {
-        width: 50%;
+        width: 48%;
         font-size: 1rem;
+        padding: 6px auto;
     }
     .styles-box-right {
+        width: 48%;
         font-size: 1rem;
+        padding: 6px auto;
     }
     .styles-row-1 h2 {
-        text-indent: 0.9rem;
+        text-indent: 0.3rem;
     }
     .styles-row-1 h3 {
         padding: 3px;
@@ -331,7 +334,7 @@ header .page-description {
     }
     .styles-row-1 p {
         padding: 3px;
-        margin-left: 0.3rem;
+        margin-left: 0.9rem;
     }
 }
 
